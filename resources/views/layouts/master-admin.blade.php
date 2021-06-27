@@ -177,17 +177,6 @@
                                         <p>Reset Password</p>
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="{{ route('logout') }}" class="nav-link" onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">
-                                        <i class="fas fa-sign-out-alt nav-icon"></i>
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                            class="d-none">
-                                            @csrf
-                                        </form>
-                                        <p>Logout</p>
-                                    </a>
-                                </li>
                             </ul>
                         </li>
                     </ul>
