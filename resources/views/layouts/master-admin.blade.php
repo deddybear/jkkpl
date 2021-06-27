@@ -171,12 +171,6 @@
                                         <p>Edit Akun</p>
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="{{ route('password.request') }}" class="nav-link">
-                                        <i class="fas fa-wrench nav-icon"></i>
-                                        <p>Reset Password</p>
-                                    </a>
-                                </li>
                             </ul>
                         </li>
                     </ul>
